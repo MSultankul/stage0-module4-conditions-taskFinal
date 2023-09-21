@@ -22,9 +22,9 @@ public class DaysInMonth {
                     days = 31;
                     break;
             }
-            System.out.println("The month has " + days + " days.");
+            System.out.println(days);
         } else {
-            System.out.println("Invalid date");
+            System.out.println("invalid date");
         }
     }
 }
