@@ -1,6 +1,6 @@
 package school.mjc.stage0.conditions.finalTask;
 
-public class TriangleValidator {
+public class TriangleSidesValidator {
     public void validate(double firstSide, double secondSide, double thirdSide) {
         if (firstSide + secondSide > thirdSide &&
                 firstSide + thirdSide > secondSide &&
